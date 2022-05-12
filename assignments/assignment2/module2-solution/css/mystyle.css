@@ -17,6 +17,7 @@ h1 {
     text-align: center;
     color: black;
     font-size: 1.531em;
+    margin-bottom: 3%;
 }
 
 p {
@@ -25,8 +26,8 @@ p {
   height: fit-content;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 0.5em;
   color: black;
-  margin-top: 15px;
   font-size: 0.875em;
 }
 
@@ -37,6 +38,7 @@ p {
     padding: 1px;
     margin-top: 0px;
     margin-right: 0px;
+    margin-bottom: auto;
     width: 30%;
     text-align: center;
     color: white;
@@ -47,6 +49,7 @@ p {
 .yellow {
     background-color: yellow;
     border: 2px solid black;
+    margin-bottom: auto;
     height: fit-content;
     padding: 1px;
     margin-top: 0px;
@@ -60,6 +63,7 @@ p {
 .pink {
     background-color: pink;
     border: 2px solid black;
+    margin-bottom: auto;
     height: fit-content;
     padding: 1px;
     margin-top: 0px;
@@ -170,7 +174,9 @@ p {
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
       border: 2px solid black;
       position: relative;
-      margin-bottom: 2%;
+      margin-bottom: 5%;
+      margin-right: auto;
+      margin-left: auto;
       background-color: gray;
     }
     .col-sm-1 {
@@ -202,6 +208,7 @@ p {
     }
     .col-sm-10 {
       width: 83.33%;
+      align-self: center;
     }
     .col-sm-11 {
       width: 91.66%;

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="mystyle.css">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Assignment 2</title>
@@ -9,67 +10,6 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-}
-
-body{
-    font-family: 'Courier New', monospace;
-}
-
-h1 {
-    text-align: center;
-    color: black;
-    font-size: 1.531em;
-}
-
-p {
-  background-color: gray;
-  width: 90%;
-  height: fit-content;
-  margin-right: auto;
-  margin-left: auto;
-  color: black;
-  margin-top: 15px;
-  font-size: 0.875em;
-}
-
-#p1 {
-    background-color: #A52A2A;
-    border: 2px solid black;
-    height: fit-content;
-    padding: 1px;
-    margin-top: 0px;
-    margin-right: 0px;
-    width: 30%;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 1.094em;
-}
-
-#p2 {
-    background-color: yellow;
-    border: 2px solid black;
-    height: fit-content;
-    padding: 1px;
-    margin-top: 0px;
-    margin-right: 0px;
-    width: 30%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.094em;
-}
-
-#p3 {
-    background-color: pink;
-    border: 2px solid black;
-    height: fit-content;
-    padding: 1px;
-    margin-top: 0px;
-    margin-right: 0px;
-    width: 30%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.094em;
 }
 
 /* Simple Responsive Framework. */
@@ -213,6 +153,7 @@ p {
   }
   .col-sm-11 {
     width: 91.66%;
+    align-self: center;
   }
   .col-sm-12 {
     width: 100%;
@@ -222,13 +163,14 @@ p {
 
 </style>
 </head>
+
 <body>
 <h1>Assignment 2 Solution</h1>
 
 <div class="row"> <!-- row -->
-  <div class="col-lg-4 col-md-5 col-sm-12"><p id= "p3">Item 1</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-  <div class="col-lg-4 col-md-5 col-sm-12"><p id= "p1">Item 2</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-  <div class="col-lg-4 col-md-11 col-sm-12"><p id= "p2">Item 3</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+  <div class="col-lg-4 col-md-5 col-sm-11"><p class= "pink">Item 1</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+  <div class="col-lg-4 col-md-5 col-sm-11"><p id= "red">Item 2</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+  <div class="col-lg-4 col-md-11 col-sm-11"><p id= "yellow">Item 3</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
 </div>
 
 </body>

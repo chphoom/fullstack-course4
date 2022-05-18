@@ -12,17 +12,59 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Bootstrap Starter Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Module 3 Solution</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
 <body>
 
-  <h1>Hello Coursera!</h1>
+  <nav id="header-nav" class="navbar bg-gray">
+    <div class="container-fuid">
+      <div class="navbar-header">
+        <a href="index.html" class="navbar-brand bg-gray navbar-right" href="#">Food, LLC</a>
+        
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+        <div class="collapse" id="collapsable-nav">
+          <div class=" shadow-3 p-4">
+            <button class="btn btn-link btn-block border-bottom m-0 bg-light">Chicken</button>
+            <button class="btn btn-link btn-block border-bottom m-0 bg-light">Beef</button>
+            <button class="btn btn-link btn-block m-0 bg-light">Sushi</button>
+          </div>
+        </div> <!-- /.navbar-collapse -->
+
+      </div> <!-- /.navbar-header -->
+    </div> <!-- /.container-fluid -->
+  </nav> <!-- /nav -->
+
+  <h2 class="text-center">Our Menu</h2>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="text-center">Chicken</h3>
+        <p>blah blah</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="text-center">Beef</h3>
+        <p>blah blah</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="text-center">Sushi</h3>
+        <p>blah blah</p>
+      </div>
+    </div>
+  </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="./js/jquery-1.11.3.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>

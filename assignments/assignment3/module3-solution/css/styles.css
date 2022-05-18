@@ -1,0 +1,52 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+  }
+  h1 {
+    margin-bottom: 15px;
+  }
+  
+  p {
+    color: black;
+    font-size: 0.875em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5em;
+  }
+  .big {
+    font-size: 1.094em; 
+  }
+  .row {
+    height: 1000px;
+    background-color: gray;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 1%;
+    border: 2px solid black;
+  }
+
+  .glyphicon {
+      font-size: larger;
+  }
+
+  .navbar-toggle[aria-expanded="false"] {
+      border-color: black;
+      color: black;
+  }
+
+  .navbar-toggle[aria-expanded="true"] {
+    border-color: white;
+    color:white;
+  }
+
+  .bg-gray {
+    background-color: gray;
+    color: black;
+    border-color: black;
+  }
+
+  .bg-light {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
